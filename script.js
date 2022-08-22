@@ -35,7 +35,7 @@ function set_time(){
     const time = new Date()
     const s = time.getSeconds()
     const m = time.getMinutes()
-    const h = time.getHours()
+    let h = time.getHours()
     if (h>12){
         h -= 12
     }
